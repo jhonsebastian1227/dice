@@ -1,0 +1,77 @@
+html, body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #141E46;
+    color: #FFF5E0;
+}
+
+button{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: bold;
+    margin: 2rem 0rem 2rem 0rem;
+    border-radius: 30px;
+    color: #FFF5E0;
+    background-color: #C70039;
+    padding: 0.2rem 4rem 0.2rem 4rem;
+    border: none;
+}
+
+button:active{
+    background-color: #8f0028;
+}
+
+h1{
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 0;
+    margin: 1rem;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 2em;
+    margin: 1rem 0rem 0.5rem 0rem;
+    color: #FFF5E0;
+}
+
+
+p{
+    font-size: 1.5em;
+    margin: 0.5rem;
+}
+.container{
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 12rem;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+
+footer{
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}

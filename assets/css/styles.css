@@ -40,11 +40,11 @@ h2{
     color: #FFF5E0;
 }
 
-
 p{
     font-size: 1.5em;
     margin: 0.5rem;
 }
+
 .container{
     display: inline;
     flex-direction: column;
@@ -74,4 +74,21 @@ footer{
     justify-content: center; 
     margin: 0;
     padding: 0;
+    
+}
+
+@media (min-width: 319px) and (max-width: 515px){
+    img{
+        height: 8rem;
+        margin: 1rem;
+    }
+
+    p{
+        font-size: 1em;
+        padding-top: 5rem;
+    }
+
+    button{
+        margin-top: 3rem;
+    }
 }
